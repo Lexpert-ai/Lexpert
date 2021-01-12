@@ -3,8 +3,8 @@
 Unfortunately, our application doesn’t have an interface because of time shortage. To create a database we just run the file named «import_manager.py» for every act we wanted to load.
 
 **Preparatory steps before running import_manager.py:**
-1. Request and save the json file in some folder and specify the path to this file in the line 18 of predict.py
-2. Specify the trial time, so we could enable the Google application service account for this time to provide an access to our model and our endpoint. (We are sorry for this but we are being hacked so we can't have our service account enabled all the time).  
+1. Please request from us and save the json file in some folder and specify the path to this file in the line 18 of predict.py
+2. We kindly ask you to inform us about the trial time, so we could enable the Google application service account for this time to provide you an access to our model and our endpoint. (We are sorry for this but we are being hacked so we can't have our service account being enabled all the time).  
 3. Open a regulation on «eur-lex» like this one https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32013R0153
 4. Press «Document information» button (like in the screenshot) and save as an html file ![file](https://user-images.githubusercontent.com/59837137/104319219-9fd01d80-54f1-11eb-85b9-0458169c3760.png)  
 5. Specify the path to the html file in the line 486 of import_manager.py 
