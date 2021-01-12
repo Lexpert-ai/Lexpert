@@ -12,6 +12,7 @@ Unfortunately, our application doesn’t have an interface because of time short
 7. Run import_manager.py
 
 **Description:**
+
 import_manager.py calls the file «predict.py» to predict whether text comprises legal terms or other labels. predict.py calls the text entity extraction model deployed on the Google AI Platform. import_manager.py calls the file «db» for modeling database nodes and relationships into Python classes.
 data_migration.py is a stand alone file used to transfer data from the local database to the database deployed in the cloud since the cloud database expires every 10 days.  
 So originally import_manager.py writes data to the local db, but to alleviate testing we changed the path directly to the cloud database (line 83 import_manager.py)
