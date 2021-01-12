@@ -18,4 +18,7 @@ data_migration.py is a stand alone file used to transfer data from the local dat
 So originally import_manager.py writes data to the local db, but to alleviate testing we changed the path directly to the cloud database (line 83 import_manager.py)
  
 If there will be any problems with running files, please contact Nataly.
-Best regards, Hammurabi AI
+
+Best regards, 
+
+Hammurabi AI
